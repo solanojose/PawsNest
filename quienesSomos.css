@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.logoVet img {
+    width: 75%;
+}
+
+.logoVet {
+    position: relative;
+    top: 38px;
+    right: 50px;
+}
+
+.ladoAzul {
+    width: 100%;
+    height: 150px;
+    background-color: #004AAD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Redes img {
+    width: 40px;
+    margin-left: 6px;
+    margin-right: 15px;
+}
+
+.Numero {
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+.Usuario {
+    width: 250px;
+    position: relative;
+    
+}
+
+
+.opciones {
+    text-align: right;
+}
+
+.opciones a {
+    display: inline-block;
+    color: #004AAD;
+    padding: 10px 80px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.opciones a:hover {
+    transform: scale(1.2);
+    color:#57C8F4;
+    border-radius: 20px;
+}
+
+
+
+.banner {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.historia{
+    display: flex;
+}
+
+.historia pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 200px;
+}
+
+.imgQuienesSomos img{
+    width: 500px;
+    margin-left: 389px;
+    margin-top: 50px;
+}
+
+.misionVision{
+    background-color: #3A80C1;
+    margin-top: 40px;
+    display: flex;
+    padding: 40px;
+}
+
+.misionVision h1{
+    color: #FFF;
+    font-size: 50px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.vision{
+    margin-left: 920px;
+}
+
+.vision h2{
+    color: #FFF;
+    font-size: 50px;
+}
+
+.infoMision{
+    display: flex;
+}
+
+.infoMision pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.infoVision{
+    margin-left: 380px;
+}
+
+.infoVision pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 77px;
+}
+
+.valores{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icnValores{
+    display: flex;
+}
+
+
+.icnValores img{
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.horario{
+    margin-top: 90px;
+}
