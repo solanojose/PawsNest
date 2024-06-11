@@ -98,11 +98,84 @@ header {
 
 .imgServicios{
     display: flex;
+    justify-content: center;
 }
 
 .imgServicios img{
-    width: 650px;
+    width: 600px;
     margin-top: 70px;
-    margin-left: 190px;
-    margin-right: 50px;
+    margin-left: 80px
+}
+
+.imgServicios img:hover{
+    -webkit-transform:scale(0.1);transform:scale(1.1);
+}
+
+.pieDePagina{
+    height: 60vh;
+    background-image: url(img/PieDePagina.png);
+    background-size: cover;  
+    display: flex;
+    margin-top: 100PX;
+}
+
+.logo{
+    width: 300px;
+   
+}
+
+.logo img{
+    width: 85%;
+    margin-top: 175px;
+    margin-left: 80px;
+}
+
+
+.correo h1{
+    color: #FFF;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+
+.correo1 h2{
+    color: #FFF;
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.correo2 h2{
+    color: #FFF;
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+.redes{
+    margin-left: 340px;
+}
+
+.redes img{
+    width: 49px;
+    margin: 45px 25px;
+    
+}
+
+.visitanos{
+    color: #FFF;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.visitanos h1{
+    margin-left: 100px; 
+}
+
+.ubicacion{
+    width: 100px;
+}
+
+.ubicacion iframe{
+    margin-top: 25px;
+    width: 350px;
+    height: 250px;
+    margin-left: 5px;
 }

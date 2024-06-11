@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.logoVet img {
+    width: 75%;
+}
+
+.logoVet {
+    position: relative;
+    top: 38px;
+    right: 50px;
+}
+
+.ladoAzul {
+    width: 100%;
+    height: 150px;
+    background-color: #004AAD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Redes img {
+    width: 40px;
+    margin-left: 6px;
+    margin-right: 15px;
+}
+
+.Numero {
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.Usuario {
+    width: 250px;
+    position: relative;
+    
+}
+
+
+.opciones {
+    text-align: right;
+}
+
+.opciones a {
+    display: inline-block;
+    color: #004AAD;
+    padding: 10px 80px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.opciones a:hover {
+    transform: scale(1.2);
+    color:#57C8F4;
+    border-radius: 20px;
+}
+
+
+
+.banner {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.sobreNosotros {
+    background: linear-gradient(90deg, #004AAD, #57C8F4);
+    height: 350px;
+    display: flex;
+    width: 1170px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    padding: 150px;
+    right: 692px;
+}
+
+.sobreNosotros pre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F7F7F7;
+    font-size:30px;
+    margin: 35px;
+    margin-right: 250px;
+}
+
+.sobreNosotros h1 {
+    color: #F7F7F7;
+    font-size: 55px;
+    margin-top: -67px;
+}
+
+.sobreNosotros h2{
+    color: #F7F7F7;
+    font-size: 55px;
+}
+
+
+.imgSobreNosotros img {
+    width: 950px;
+    float: right;
+    position: relative;
+    left: 1211px;
+    z-index: 1;
+}
+
+
+.infoServicios{
+    background: #3D8CAB;
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+}
+
+.imgServicios{
+    display: flex;
+}
+
+.imgServicios img{
+    width: 500px;  
+    margin: 78px;
+    margin-top: 35px;
+}
+
+.imgBlog{
+    display: flex;
+}
+
+.imgBlog img{
+    width: 810px;
+    margin: 70px;
+}
+
+.pieDePagina{
+    height: 60vh;
+    background-image: url(img/PieDePagina.png);
+    background-size: cover;  
+    display: flex;
+}
+
+.logo{
+    width: 300px;
+   
+}
+
+.logo img{
+    width: 85%;
+    margin-top: 175px;
+    margin-left: 80px;
+}
+
+
+
+
+.correo h1{
+    color: #FFF;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+
+.correo1 h2{
+    color: #FFF;
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.correo2 h2{
+    color: #FFF;
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+.redes{
+    margin-left: 340px;
+}
+
+.redes img{
+    width: 49px;
+    margin: 45px 25px;
+    
+}
+
+.visitanos{
+    color: #FFF;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.visitanos h1{
+    margin-left: 100px; 
+}
+
+.ubicacion{
+    width: 100px;
+}
+
+.ubicacion iframe{
+    margin-top: 25px;
+    width: 350px;
+    height: 250px;
+    margin-left: 5px;
+}
