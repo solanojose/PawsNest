@@ -100,5 +100,58 @@ header {
 .registrate h1{
     text-align: center;
     color: #FFFF;
+    font-size: 40px;
 }
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario img {
+    width: 700px;
+    margin-right: 20px;
+}
+
+.formulario form {
+    width: 70%;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    width: 48%; 
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+input,
+select {
+    width: calc(100% - 10px); 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.btnRegistrar {
+    margin-top: 20px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
 
