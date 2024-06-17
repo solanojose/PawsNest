@@ -110,12 +110,17 @@ header {
 }
 
 .formulario img {
-    width: 700px;
+    width: 500px;
     margin-right: 20px;
+    margin-top: 150px;
 }
 
 .formulario form {
-    width: 70%;
+    margin-top: 160px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0);
+    padding: 50px;
 }
 
 .fila {
@@ -136,14 +141,87 @@ label {
 
 input,
 select {
-    width: calc(100% - 10px); 
+    width: calc(70% - 10px); 
     padding: 5px;
     box-sizing: border-box;
+    margin-right: 50px;
 }
 
 .btnRegistrar {
     margin-top: 20px;
     width: 200px;
+
+}
+
+
+
+.pieDePagina{
+    height: 60vh;
+    background-image: url(img/PieDePagina.png);
+    background-size: cover;  
+    display: flex;
+    margin-top: 150px;
+}
+
+.logo{
+    width: 300px;
+   
+}
+
+.logo img{
+    width: 85%;
+    margin-top: 175px;
+    margin-left: 80px;
+}
+
+
+.correo h1{
+    color: #FFF;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+
+.correo1 h2{
+    color: #FFF;
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.correo2 h2{
+    color: #FFF;
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+.redes{
+    margin-left: 340px;
+}
+
+.redes img{
+    width: 49px;
+    margin: 45px 25px;
+    
+}
+
+.visitanos{
+    color: #FFF;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.visitanos h1{
+    margin-left: 100px; 
+}
+
+.ubicacion{
+    width: 100px;
+}
+
+.ubicacion iframe{
+    margin-top: 25px;
+    width: 350px;
+    height: 250px;
+    margin-left: 5px;
 }
 
 
